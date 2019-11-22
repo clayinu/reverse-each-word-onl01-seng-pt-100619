@@ -6,5 +6,5 @@ def reverse_each_word(array)
   splitarray.each do |word|
     newarray << word.reverse
   end
-  newarray
+  newarray.join
 end 
