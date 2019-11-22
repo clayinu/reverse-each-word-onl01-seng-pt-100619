@@ -7,4 +7,11 @@ def reverse_each_word(array)
     newarray << word.reverse
   end
   newarray.join(' ')
+  
+  
+  collectarray = []
+  splitarray.collect do |word|
+    collectarray << word.reverse
+  end
+  collectarray.join(' ')
 end 
