@@ -1,9 +1,10 @@
-def reverse_each_word
+def reverse_each_word(array)
   
   array = []
-
+  split = array.split
   
-  reversed.each do |word|
-    
+  split.each do |word|
+    put word.reverse
+  end
   
 end 
