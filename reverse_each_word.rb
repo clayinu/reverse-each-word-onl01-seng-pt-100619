@@ -2,8 +2,9 @@ def reverse_each_word(array)
   
   splitarray = array.split
   
+  newarray = []
   splitarray.each do |word|
-    puts word.reverse
+    newarray << word.reverse
   end
-  
+  newarray
 end 
